@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="55.62808">
+    <testcase classname="Sign Up Functionality in elearningm1 Website" name="Add all mandatory fields to create an User" time="55.62808">
+        <system-out><![CDATA[Given user should be on the main page.......................................passed
+When user clicks on SignUp..................................................passed
+And Enter all Mandatory fields "Yash123" , "Murthannagari", "xyz@gmail.com", "123abc11", "yashashwini", "yashashwini".passed
+And Click on Register.......................................................passed
+Then Registration Home Page will appear with message Dear "Yash123", "Murthannagari".passed
+And User Clicks on Profile Icon and Validate the Email "xyz@gmail.com"......passed
+And User Clicks on Compose Email Icon.......................................passed
+And User Enters all Mandatory Fields "abcd123" , "Imp", "Hello There".......passed
+And User Clicks on Send Message.............................................passed
+Then Message should be sent Successfully with success message having "abcd123".passed
+]]></system-out>
+    </testcase>
+</testsuite>
